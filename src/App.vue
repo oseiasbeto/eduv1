@@ -3,7 +3,6 @@
     <div class="ouviaki-app">
       <Navbar/>
       <div class="ouviaki-hr">
-        <Sidebar />
         <Container>
           <router-view />
         </Container>
@@ -27,7 +26,6 @@ import {api} from "@/api"
 import { mapState } from "vuex";
 import Container from "./modules/dashboard/components/theme/Container.vue";
 import Navbar from "./modules/dashboard/components/theme/Navbar.vue";
-import Sidebar from "./modules/dashboard/components/theme/Sidebar.vue";
 import Player from "./modules/dashboard/components/player/views/Player.vue";
 import Auth from "./modules/dashboard/components/modals/Auth";
 import Loading from "./modules/dashboard/components/Loading";
@@ -39,7 +37,6 @@ import AddToPlaylist from "./modules/dashboard/components/modals/AddToPlaylist";
 export default {
   components: {  
     Navbar, 
-    Sidebar, 
     Container, 
     Player, 
     Loading,
