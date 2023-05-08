@@ -26,6 +26,7 @@ import {api} from "@/api"
 import { mapState } from "vuex";
 import Container from "./modules/dashboard/components/theme/Container.vue";
 import Navbar from "./modules/dashboard/components/theme/Navbar.vue";
+
 import Player from "./modules/dashboard/components/player/views/Player.vue";
 import Auth from "./modules/dashboard/components/modals/Auth";
 import Loading from "./modules/dashboard/components/Loading";
@@ -87,5 +88,9 @@ export default {
 }
 .ouviaki-app {
   box-sizing: border-box;
+}
+.ouviaki-hr {
+  display: flex;
+  justify-content: center;
 }
 </style>

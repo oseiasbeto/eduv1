@@ -18,14 +18,13 @@ export default {
 
 <style scoped>
 .container {
-  position: relative;
-  margin-left: 220px;
-  height: calc(100vh - 80px);
-  width: calc(100% - 220px);
-  box-sizing: border-box;
-  z-index: 111;
-  color: var(--gray-lighter);
-  overflow-x: hidden;
+    position: relative;
+    height: calc(100vh - 80px);
+    box-sizing: border-box;
+    width: 75%;
+    z-index: 111;
+    color: var(--gray-lighter);
+    overflow-x: hidden;
 }
 .pd {
    padding: 0 30px;
