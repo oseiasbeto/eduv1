@@ -1,0 +1,2 @@
+export const SET_ARTISTS = "ARTISTS/SET_ARTISTS"
+export const SET_ARTIST = "ARTISTS/SET_ARTIST"

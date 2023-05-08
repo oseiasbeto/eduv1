@@ -1,0 +1,2 @@
+export const SET_ALBUM = "ALBUMS/SET_ALBUM"
+export const SET_ALBUMS = "ALBUMS/SET_ALBUMS"

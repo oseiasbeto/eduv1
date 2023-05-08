@@ -1,0 +1,3 @@
+export const SET_TRACK = "TRACKS/SET_TRACK"
+export const SET_TRENDING = "TRACKS/SET_TRENDING"
+export const SET_NEWS = "TRACKS/SET_NEWS"
