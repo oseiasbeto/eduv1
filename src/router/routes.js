@@ -1,7 +1,9 @@
 import { routes as authentication } from '../modules/authentication'
-import { routes as dashboard } from '../modules/dashboard'
+import { routes as users } from '../modules/users'
+import { routes as academy } from '../modules/academy'
 
 export default [
     ...authentication,
-    ...dashboard
+    ...users,
+    ...academy
 ]

@@ -1,26 +1,7 @@
+import { routes as signin } from './pages/signin'
+import { routes as signup } from './pages/signup'
+
 export default [
-    {
-        name: 'Iniciar sessão no Iddude',
-        path: '/account/auth',
-        meta: {
-            requiresVisitor: true
-        },
-        component: () => import('./AppView')
-    },
-    {
-        name: 'Criar uma Conta',
-        path: '/account/signup',
-        meta: {
-            requiresVisitor: true
-        },
-        component: () => import('./AppView')
-    },
-    {
-        name: 'Esqueceste a senha',
-        path: '/account/forgout_password',
-        meta: {
-            requiresVisitor: true
-        },
-        component: () => import('./AppView')
-    }
+    ...signin,
+    ...signup
 ]
