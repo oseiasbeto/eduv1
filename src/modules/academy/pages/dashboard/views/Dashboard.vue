@@ -2,7 +2,7 @@
   <div class="dashboard">
     <header>
       <h1 class="title">Painel de controle</h1>
-      <p class="subtitle">Olá Oséias, seja bem vindo ao nosso painel</p>
+      <p class="subtitle">Olá Oséias, seja bem vindo ao nosso painel de controle</p>
     </header>
     <div class="body">
       <div class="fast-links">
@@ -12,13 +12,18 @@
         <router-link to="/epanel/favorites">Favoritos</router-link>
         <router-link to="/epanel/balance">Meu kumbu</router-link>
       </div>
+      <BalanceCard/>
     </div>
   </div>
 </template>
 
 <script>
+import BalanceCard from "../../../components/theme/BalanceCard.vue"
 export default {
   name: "Dashboard",
+  components: {
+    BalanceCard
+  }
 };
 </script>
 
@@ -48,6 +53,7 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 24px;
 }
 
 .fast-links a,
@@ -80,9 +86,7 @@ button {
 
 .fast-links .create {
   color: #fff;
-  background: #31c178;
-  -webkit-box-shadow: 0 4px 24px rgba(49, 193, 120, .25);
-  box-shadow: 0 4px 24px rgba(49, 193, 120, .25);
+  background: var(--secondary);
 }
 .fast-links>a, button {
     margin-right: 12px;

@@ -7,7 +7,7 @@
             <div class="container">
                 <h2 class="title">
                     A Plataforma Completa para <br />
-                    Educar e Aprender Online<br />
+                    Educar e <span>Aprender Online</span> <br />
                 </h2>
                 <p class="subtitle">
                     Na Eduka África, voce pode monetizar seu  conhecimento<br> e hablidades.
@@ -15,8 +15,7 @@
                     Crie sua conta e comece agora!
                 </p>
                 <div class="actions">
-                    <input ref="heroFormEmail" v-model="form.email" required type="email" placeholder="Informe o seu email">
-                    <button type="submit" class="btn active" @click="goAuth()">Criar conta</button>
+                    <button type="submit" class="btn active" @click="goAuth()">Começar agora</button>
                 </div>
 
                 <div style="color: #0009;
@@ -129,12 +128,15 @@ export default {
 
 .btn.active {
     transition: all .25s ease-in-out;
-    background-color: var(--primary);
-    color: rgb(78 51 7);
+    background-color: transparent;
+    color: rgb(4, 44, 52);
+    border: 1px solid rgb(4, 44, 52);
 }
 
 .btn.active:hover {
     transition: all .25s ease-in-out;
+    background-color: rgb(4, 44, 52);
+    color: #fff;
 }
 
 a {

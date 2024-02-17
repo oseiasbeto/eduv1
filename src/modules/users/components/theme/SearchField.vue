@@ -61,23 +61,15 @@ export default {
 
 <style scoped>
 .search {
-  position: relative;
-  display: flex;
-  width: 450px;
-  flex-direction: row;
-  align-items: center;
-  box-sizing: border-box;
-  height: 30px;
-  padding: 5px 32px 6px 38px;
+  height: 39px;
+  padding: 0 12px;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d6e3e3;
   border-radius: 4px;
-  font-size: 12px;
-  line-height: 18px;
-  color: var(--tertiary);
-  background-color: hsl(209.77deg 100% 80.98% / 13%);
-  border: 1px solid rgb(165 183 198 / 13%);
-  font-size: .8125rem;
-  background-size: 24px auto;
-  margin-right: 16px;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: #555;
 }
 
 .search input {
@@ -85,15 +77,15 @@ export default {
   border: none;
   background: transparent;
   width: 100%;
-  height: 30px;
-  font-size: 13.3px !important;
-  font-weight: 500;
+  height: 39px;
+  font-size: 15px !important;
+  font-weight: 400;
   color: inherit;
   font-family: inherit;
 }
 
 .search input::placeholder {
-  color: #a5b7c6;
+  color: #999;;
 }
 
 
@@ -104,7 +96,7 @@ export default {
 }
 
 .icon svg {
-  fill: #a5b7c6;
+  fill: #5555559f;
 }
 
 .right {

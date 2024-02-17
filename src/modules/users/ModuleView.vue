@@ -58,8 +58,8 @@ export default {
     Sidebar,
     Container,
     Loading,
-    Footer
-  },
+    Footer,
+},
   name: "ModuleView",
   data() {
     return {
